@@ -1,0 +1,49 @@
+.container {
+    gap: 20px;
+    min-width: 100dvw;
+    height: 100dvh;
+    padding: 5vh 5vw;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.box {
+    height: auto;
+
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10px;
+
+    text-align: center;
+    background-color: var(--bitcoin);
+    z-index: 3;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2vh 5vw;
+        min-height: 100dvh;
+
+    }
+    .box {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        gap: 10px;
+    
+        text-align: center;
+        background-color: var(--bitcoin);
+        z-index: 3;
+    
+        >h1 {
+            font-size: 60px;
+        }
+    }
+    
+   
+
+}

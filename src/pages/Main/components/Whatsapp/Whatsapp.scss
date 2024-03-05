@@ -1,0 +1,33 @@
+.whatsappButton {
+    width: 40%;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: #019136;
+    color: wheat;
+    z-index: 3;
+
+    &-box {
+        width: 100%;
+        gap:5px;
+
+        >input {
+            width: 70%;
+            height: 30px;
+            padding: 5px;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    .whatsappButton {
+        width: 100%;
+        text-align: center;
+    
+    }    
+
+
+}
