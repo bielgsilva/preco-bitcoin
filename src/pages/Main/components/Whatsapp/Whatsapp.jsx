@@ -15,17 +15,17 @@ const Whatsapp = ({ email, setEmail }) => {
   }
 
   return (
-    <div className="whatsappButton flex-center-column">
-      <i className="fa fa-whatsapp"></i>
-      <h3>Receber atualizações diárias via WhatsApp</h3>
-      <div className='whatsappButton-box flex-center'>
+    <div className="box flex-center-column">
+      <i className="fa fa-envelope"></i>
+      <h3>Receber atualizações diárias via Email</h3>
+
+      <div className='box-whatsapp flex-center'>
         <input
           type="email"
           name="email"
-          placeholder=""
+          placeholder="meunome@email.com"
           value={email}
           onChange={handleEmailChange}
-          pattern="[0-9]*"
           autoComplete="off"
         />
         <button className="flex-center"

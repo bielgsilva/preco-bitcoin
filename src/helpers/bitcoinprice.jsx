@@ -4,10 +4,12 @@ const bitcoinprice = async () => {
     try {
         const response = await btcPrice.get('/json/last/BTC-USD');
 
-        const price = response.data.BTCUSD.high;
+        console.log(response);
+        const price = response.data.BTCUSD.bid;
         const date = response.data.BTCUSD.create_date
+        const name = response.data.BTCUSD.name
 
-        const btc = { price, date };
+        const btc = { price, date, name };
 
         return btc
 

@@ -1,20 +1,37 @@
-.whatsappButton {
-    width: 40%;
-    padding: 15px;
+.box-whatsapp {
+    width: 80%;
+    padding: 10px 15px;
     gap: 15px;
     border-radius: 15px;
-    background-color: #019136;
+    background-color: var(--bitcoin2);
     color: wheat;
     z-index: 3;
 
-    &-box {
-        width: 100%;
-        gap:5px;
+    >input {
+        flex: 1;
+        width: auto;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        padding: 8px;
+    }
+    
+    >button {
+        height: 30px;
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: 2px black;
+        
+        border: none;
+        cursor: pointer;
+        background-color: green;
+        color: white;
+        >i {
+            margin-right: 5px;
+        }
 
-        >input {
-            width: 70%;
-            height: 30px;
-            padding: 5px;
+        &:hover {
+            background-color: #019136;
         }
     }
 
@@ -25,8 +42,8 @@
     .whatsappButton {
         width: 100%;
         text-align: center;
-    
-    }    
+
+    }
 
 
 }
