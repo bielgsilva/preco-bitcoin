@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './styles.scss';
 import useUser from '../../hooks/useUser';
-import ValueBox from './components/ValueBox/ValueBox';
+import Value from './components/Value/Value';
 import bitcoinprice from '../../helpers/bitcoinprice';
 import Whatapp from './components/Whatsapp/Whatsapp'
 import Countdown from './components/Countdown/Countdown';
@@ -30,7 +30,7 @@ function App() {
     <div className="container flex-center-column overlay">
 
       {loading && <h2>Carregando...</h2>}
-      {!loading && btcPrice && <ValueBox btcPrice={btcPrice} btcDate={btcDate} btcName={btcName} />}
+      {!loading && btcPrice && <Value btcPrice={btcPrice} btcDate={btcDate} btcName={btcName} />}
 
       <Countdown />
       <Whatapp email={email} setEmail={setEmail} />
