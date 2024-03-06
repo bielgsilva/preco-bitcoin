@@ -1,7 +1,7 @@
 import axios from 'axios';
- 
+
 export default axios.create({
-    baseURL: 'https://preco-bitcoin-api.onrender.com', 
+    baseURL: 'https://preco-bitcoin-api.onrender.com',
     timeout: 10000,
-    headers: { 'Content-Type': 'application/json' } 
+    headers: { 'Content-Type': 'application/json' }
 })
