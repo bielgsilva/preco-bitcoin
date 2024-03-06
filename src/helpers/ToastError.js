@@ -1,7 +1,7 @@
 import { injectStyle } from "react-toastify/dist/inject-style";
 import { toast } from "react-toastify";
 
-export function toastError(message) {
+const toastError = (message) => {
   injectStyle();
   toast.error(message, {
     position: "top-right",
@@ -14,3 +14,6 @@ export function toastError(message) {
     theme: "light",
   });
 }
+
+
+export default toastError;

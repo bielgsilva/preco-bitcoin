@@ -1,7 +1,8 @@
 import { injectStyle } from "react-toastify/dist/inject-style";
 import { toast } from "react-toastify";
 
-export function toastSucess(message) {
+const ToastSucess = (message) => {
+
   injectStyle();
   toast.success(message, {
     position: "top-right",
@@ -14,3 +15,5 @@ export function toastSucess(message) {
     theme: "light",
   });
 }
+
+export default ToastSucess;
