@@ -6,12 +6,7 @@ const Whatsapp = ({ email, setEmail }) => {
 
   const handleEmailChange = (event) => {
     const input = event.target.value;
-
     setEmail(input);
-
-    // if (input.length <= 14) {
-    //   setEmail(input);
-    // }
   }
 
   return (
@@ -19,7 +14,7 @@ const Whatsapp = ({ email, setEmail }) => {
       <i className="fa fa-envelope"></i>
       <h3>Receber atualizações diárias via Email</h3>
 
-      <div className='box-whatsapp flex-center'>
+      <div className='box-mail flex-center'>
         <input
           type="email"
           name="email"

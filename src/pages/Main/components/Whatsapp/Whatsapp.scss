@@ -1,14 +1,12 @@
-.box-whatsapp {
+.box-mail {
     width:80%;
     padding: 10px 20px;
     gap: 15px;
     border-radius: 15px;
     color: wheat;
-    z-index: 3;
 
     >input {
         flex: 3;
-        width: auto;
         height: 30px;
         border-radius: 3px;
         border: none;
@@ -26,6 +24,7 @@
         cursor: pointer;
         background-color: green;
         color: white;
+        
         >i {
             margin-right: 5px;
         }

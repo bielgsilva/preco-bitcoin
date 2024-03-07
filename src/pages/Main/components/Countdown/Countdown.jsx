@@ -35,33 +35,33 @@ const Countdown = () => {
   return (
     <>
       <div className='box flex-center-column'>
-        <div className='box-countdown flex-center-column'>
+        <h2>Contagem regressiva para o Halving:</h2>
 
-          <h2>Contagem regressiva para o Halving:</h2>
-          <div className='box-counters flex-center'>
-            <div className="box-counters-counter flex-center-column">
-              <span>{addLeadingZero(timeLeft.days)}</span>
-              <p>days</p>
+        <div className='box-counters flex-center'>
+          <div className="box-counters-counter flex-center-column">
+            <span>{addLeadingZero(timeLeft.days)}</span>
+            <p>days</p>
 
-            </div>
-            <div className="box-counters-counter flex-center-column">
-              <span>{addLeadingZero(timeLeft.hours)}</span>
-              <p>hours</p>
-
-            </div>
-            <div className="box-counters-counter flex-center-column">
-              <span>{addLeadingZero(timeLeft.minutes)}</span> 
-              <p>minutes</p>
-
-            </div>
-            <div className="box-counters-counter flex-center-column">
-              <span>{addLeadingZero(timeLeft.seconds)}</span>
-              <p>seconds</p>
-
-            </div>
           </div>
-          <h3>Aproximidamente 30 de Abril de 2024</h3>
+          <div className="box-counters-counter flex-center-column">
+            <span>{addLeadingZero(timeLeft.hours)}</span>
+            <p>hours</p>
+
+          </div>
+          <div className="box-counters-counter flex-center-column">
+            <span>{addLeadingZero(timeLeft.minutes)}</span>
+            <p>minutes</p>
+
+          </div>
+          <div className="box-counters-counter flex-center-column">
+            <span>{addLeadingZero(timeLeft.seconds)}</span>
+            <p>seconds</p>
+
+          </div>
         </div>
+
+        <h3>Aproximidamente 30 de Abril de 2024</h3>
+
       </div>
     </>
   );
