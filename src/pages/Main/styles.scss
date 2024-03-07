@@ -11,9 +11,9 @@
 
 .box {
     height: auto;
-    width: 50%;
+    width: auto;
 
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     gap: 10px;
 
@@ -30,22 +30,5 @@
         min-height: 100dvh;
 
     }
-    .box {
-        height: auto;
-        width: 100%;
-        padding: 20px;
-        border-radius: 10px;
-        gap: 10px;
-    
-        text-align: center;
-        background-color: var(--bitcoin);
-        z-index: 3;
-    
-        >h1 {
-            font-size: 60px;
-        }
-    }
-    
-   
 
 }

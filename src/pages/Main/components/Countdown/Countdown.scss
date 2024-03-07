@@ -22,9 +22,7 @@
     .box-countdown{
         width: 100%;
         gap: 30px;
-        >h3{
-            font-size: 15px;
-        }
+ 
     }
     .box-counters {
         width: 100%;
@@ -38,17 +36,9 @@
             border-radius: 10px;
             padding: 5px;
             background-color: var(--bitcoin2);
-
-            >span{
-                font-size: 40px;
-            }
-            >p{
-                font-size: 10px;
-            }
         }
     }
     
-
 
 
 

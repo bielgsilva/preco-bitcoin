@@ -11,7 +11,7 @@ const Value = ({ btcPrice, btcDate, btcName }) => {
       <div className='box flex-center-column'>
         <h2>O valor médio de um Bitcoin hoje foi:</h2>
         <h1>{formattedPrice}</h1>
-        <h5>{btcName}</h5>
+        <h4>{btcName}</h4>
         <h3>Ultima atualização: {formattedDate}</h3>
       </div>
     </>

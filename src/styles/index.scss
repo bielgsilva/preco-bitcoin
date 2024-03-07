@@ -13,18 +13,26 @@
   font-family: 'Montserrat', sans-serif;
   ;
 }
-
 h1 {
-  font-size: 50px;
+  font-size: min(10vw, 50px)
 }
+
 h2 {
-  font-size: 20px;
+  font-size: min(4.2vw, 20px)
 }
+
 h3 {
-  font-size: 17px;
+  font-size: min(3.8vw, 16px)
 }
-p{
-  font-size: 15px;
+h4 {
+  font-size: min(3vw, 13px)
+}
+span {
+  font-size: min(6vw, 30px)
+}
+
+p {
+  font-size: min(3.8vw, 15px)
 }
 
 
@@ -61,3 +69,4 @@ p{
   z-index: 2;
 }
 
+@media (max-width: 768px) {}
