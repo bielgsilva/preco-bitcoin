@@ -11,7 +11,7 @@
 
 .box {
     height: auto;
-    width: auto;
+    width: 60%;
 
     padding: 20px;
     border-radius: 10px;
@@ -29,6 +29,11 @@
         padding: 2vh 5vw;
         min-height: 100dvh;
 
+    }
+
+    .box {
+        height: auto;
+        width: 100%;
     }
 
 }
