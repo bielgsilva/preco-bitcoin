@@ -60,7 +60,7 @@ const Countdown = () => {
           </div>
         </div>
 
-        <h3>Aproximidamente 30 de Abril de 2024</h3>
+        <h3>Aproximidamente 18 de Abril de 2024</h3>
 
       </div>
     </>
